@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClassesForTelegramBot;
+using System;
+using System.Threading.Tasks;
 
 namespace TelegramBotLinksStorageCli
 {
@@ -6,7 +8,8 @@ namespace TelegramBotLinksStorageCli
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Application app = new Application();
+            app.Run();
         }
     }
 }
